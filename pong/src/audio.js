@@ -2,8 +2,6 @@
 If you create a new player, be sure to import it at the top of index.js!
 */
 
-//import Tone from "lib/tone";
-
 class soundFile {
   constructor(file, deferPlay) {
     //this.deferPlay = false;
