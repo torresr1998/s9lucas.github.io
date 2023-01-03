@@ -2,7 +2,7 @@
 If you create a new player, be sure to import it at the top of index.js!
 */
 
-//import Tone from "tone";
+import * as Tone from 'tone'
 
 class soundFile {
   constructor(file, deferPlay) {

@@ -34,7 +34,7 @@ import {
 } from "./events.js";
 //Utility functions
 import { clamp, scalerange, randomAdjust, boolToOnOff } from "./util.js";
-//import Tone from "tone"; //audio engine
+import * as Tone from 'tone' //audio engine
 
 //GAME OBJECTS///DON'T CHANGE THESE
 var updateInterval = 15; //game framerate
