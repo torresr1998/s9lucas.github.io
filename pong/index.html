@@ -2,7 +2,13 @@
 <html lang="en">
   <head>
     <title>Audio PONG</title>
-    <script src="./lib/Tone.js"></script>
+    <script type="importmap">
+      {
+          "imports": {
+              "tone": "./lib/Tone.js"
+          }
+      }
+    </script>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./src/styles.css" />
   </head>
