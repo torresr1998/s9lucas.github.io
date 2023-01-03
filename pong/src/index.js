@@ -16,7 +16,7 @@ import {
   playDeferredSounds
 } from "./audio.js";
 //Defaults for game objects
-import { Game, Ball, Paddle, GameEvent } from "./classes.js";
+import { Game, Ball, Paddle } from "./classes.js";
 //Game Events
 import {
   gameEventArray,
@@ -34,7 +34,7 @@ import {
 } from "./events.js";
 //Utility functions
 import { clamp, scalerange, randomAdjust, boolToOnOff } from "./util.js";
-import * as Tone from 'tone' //audio engine
+import Tone from "tone"; //audio engine
 
 //GAME OBJECTS///DON'T CHANGE THESE
 var updateInterval = 15; //game framerate
