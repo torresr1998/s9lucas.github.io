@@ -1,0 +1,3 @@
+[submodule "pong/lib/tone"]
+	path = pong/lib/tone
+	url = https://github.com/Tonejs/Tone.js/
