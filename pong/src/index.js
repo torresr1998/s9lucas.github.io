@@ -4,6 +4,8 @@ and then activating/checking them in the top two sections
 STARTUP EVENTS - things that will run once when the game starts
 RUNNING PROCESSES - things that will run every frame 
 */
+
+
 //Import Code From Other JS Modules
 //Sound functions and classes
 import {
@@ -14,11 +16,12 @@ import {
   adventureMusic,
   villageMusic,
   playDeferredSounds
-} from "./audio.js";
+} from "./src/audio.js";
 //Defaults for game objects
-import { Game, Ball, Paddle } from "./classes.js";
+import { Game, Ball, Paddle } from "./src/classes.js";
 //Game Events
 import {
+  GameEvent,
   gameEventArray,
   ballHitWall,
   ballHitPaddle,
@@ -31,10 +34,10 @@ import {
   muteControl,
   volumeUpControl,
   volumeDownControl
-} from "./events.js";
+} from "./src/events.js";
 //Utility functions
-import { clamp, scalerange, randomAdjust, boolToOnOff } from "./util.js";
-import Tone from "./Tone.js"; //audio engine
+import { clamp, scalerange, randomAdjust, boolToOnOff } from "./src/util.js";
+//import * as Tone from "../lib/Tone.js";
 
 //GAME OBJECTS///DON'T CHANGE THESE
 var updateInterval = 15; //game framerate

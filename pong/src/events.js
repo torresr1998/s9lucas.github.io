@@ -3,7 +3,7 @@ You likely want to use the turnOn() turnOff() functions to track if state has ch
 If you create a new event, be sure to import it at the top of index.js!
 */
 
-class GameEvent {
+export class GameEvent {
   constructor(persistent, state, changed, htmlElement) {
     this.persistent = false; //does state get reset?
     this.state = false; //current state
