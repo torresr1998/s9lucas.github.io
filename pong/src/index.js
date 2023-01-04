@@ -16,9 +16,9 @@ import {
   adventureMusic,
   villageMusic,
   playDeferredSounds
-} from "./src/audio.js";
+} from "./audio.js";
 //Defaults for game objects
-import { Game, Ball, Paddle } from "./src/classes.js";
+import { Game, Ball, Paddle } from "./classes.js";
 //Game Events
 import {
   GameEvent,
@@ -34,9 +34,9 @@ import {
   muteControl,
   volumeUpControl,
   volumeDownControl
-} from "./src/events.js";
+} from "./events.js";
 //Utility functions
-import { clamp, scalerange, randomAdjust, boolToOnOff } from "./src/util.js";
+import { clamp, scalerange, randomAdjust, boolToOnOff } from "./util.js";
 //import * as Tone from "../lib/Tone.js";
 
 //GAME OBJECTS///DON'T CHANGE THESE
