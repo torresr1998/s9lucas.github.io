@@ -38,7 +38,7 @@ export class Ball {
     intertialTransfer,
     htmlElement
   ) {
-    this.size = { x: 20, y: 20 }; // default ball size
+    this.size = { x: 40, y: 30 }; // default ball size
     this.position = { x: 50, y: 50 }; // default ball position
     this.direction = { x: 5, y: 0 }; //Ball speed when game starts
     this.acceleration = 1.1; //X speed multipler on successful block
